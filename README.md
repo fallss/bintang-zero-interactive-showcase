@@ -1,8 +1,22 @@
 # 🌟 Bintang Zero 0.0% — Interactive 3D Product Showcase
 
+[![Live Demo](https://img.shields.io/badge/Live_Demo-Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://bintang-zero-interactive-showcase.vercel.app/)
+[![Status](https://img.shields.io/badge/Status-Online-059669?style=for-the-badge)](https://bintang-zero-interactive-showcase.vercel.app/)
+[![WebGL](https://img.shields.io/badge/3D-Google_Model--Viewer-3b82f6?style=for-the-badge&logo=webgl&logoColor=white)](https://modelviewer.dev/)
+[![GSAP](https://img.shields.io/badge/Animations-GSAP_3.12-88CE02?style=for-the-badge&logo=greensock&logoColor=white)](https://greensock.com/gsap/)
+
 An immersive, award-winning 3D web experience and luxury landing page celebrating Indonesia's iconic non-alcoholic malt beverage: **Bintang Zero 0.0%** and **Bintang Radler Lemon 0.0%**. 
 
-Built with **Google `<model-viewer>`**, **GSAP**, **WebGL**, and **Web Audio API**.
+Built with **Google `<model-viewer>`**, **GSAP**, **WebGL**, and the native **Web Audio API**.
+
+---
+
+## 🌐 Live Demo
+
+Experience the interactive 3D showcase live in production:  
+👉 **[https://bintang-zero-interactive-showcase.vercel.app/](https://bintang-zero-interactive-showcase.vercel.app/)**
+
+> **Tip**: Best experienced on desktop and modern mobile browsers with WebGL & hardware acceleration enabled. Turn on the **Sound FX** toggle for immersive sound design.
 
 ---
 
@@ -28,6 +42,7 @@ Built with **Google `<model-viewer>`**, **GSAP**, **WebGL**, and **Web Audio API
 - **Animation**: [GSAP (GreenSock Animation Platform)](https://greensock.com/gsap/)
 - **Audio**: Web Audio API (Synthesized acoustic waveforms)
 - **Typography**: Google Fonts (*Outfit* & *Plus Jakarta Sans*)
+- **Deployment & Hosting**: [Vercel](https://vercel.com/)
 
 ---
 
@@ -40,7 +55,7 @@ Any modern web browser with WebGL support (Chrome, Edge, Safari, Firefox).
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/your-username/bintang-zero-interactive-showcase.git
+   git clone https://github.com/fallss/bintang-zero-interactive-showcase.git
    cd bintang-zero-interactive-showcase
    ```
 
