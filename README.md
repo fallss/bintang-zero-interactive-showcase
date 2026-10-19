@@ -48,11 +48,11 @@ Any modern web browser with WebGL support (Chrome, Edge, Safari, Firefox).
    Using Python:
    ```bash
    # Python 3
-   python3 -m http.server 8080 --directory GetLayers
+   python3 -m http.server 8080
    ```
    Or using Node.js:
    ```bash
-   npx serve GetLayers
+   npx serve .
    ```
 
 3. **Open in your browser:**
@@ -65,20 +65,20 @@ Any modern web browser with WebGL support (Chrome, Edge, Safari, Firefox).
 ## 📁 Project Structure
 
 ```text
-├── GetLayers/
-│   ├── index.html              # Main interactive single-page application
-│   ├── bintang 1.glb           # 3D GLTF model: Bintang Zero 0.0%
-│   ├── bintang 2.glb           # 3D GLTF model: Bintang Radler Lemon 0.0%
-│   ├── bintang-1-card.png      # Transparent PNG render (Zero Can)
-│   ├── bintang-2-card.png      # Transparent PNG render (Radler Can)
-│   └── assets/
-│       ├── lemon-slice.png     # Studio isolated lemon slice with water splash
-│       ├── lemon-wedge.png     # Studio isolated cut lemon wedge
-│       ├── ice-cube.png        # Crystalline ice cube with splash droplets
-│       ├── hop.png             # Fresh brewing green hop cone
-│       ├── barley.png          # Golden malt barley ear
-│       └── lifestyle-pour.jpg  # Cinematic 3°C cold-pour photography
-└── README.md                   # Project documentation
+├── index.html              # Main interactive single-page application
+├── bintang 1.glb           # 3D GLTF model: Bintang Zero 0.0%
+├── bintang 2.glb           # 3D GLTF model: Bintang Radler Lemon 0.0%
+├── bintang-1-card.png      # Transparent PNG render (Zero Can)
+├── bintang-2-card.png      # Transparent PNG render (Radler Can)
+├── assets/
+│   ├── lemon-slice.png     # Studio isolated lemon slice with water splash
+│   ├── lemon-wedge.png     # Studio isolated cut lemon wedge
+│   ├── ice-cube.png        # Crystalline ice cube with splash droplets
+│   ├── hop.png             # Fresh brewing green hop cone
+│   ├── barley.png          # Golden malt barley ear
+│   └── lifestyle-pour.jpg  # Cinematic 3°C cold-pour photography
+├── vercel.json             # Vercel deployment & 3D asset headers configuration
+└── README.md               # Project documentation
 ```
 
 ---
